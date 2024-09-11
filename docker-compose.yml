@@ -1,4 +1,6 @@
 services:
+  frontend:
+    image: lblod/hackathon-team-4-frontend-permits
   identifier:
     image: semtech/mu-identifier:1.10.3
     environment:
