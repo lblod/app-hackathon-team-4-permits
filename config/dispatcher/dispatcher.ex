@@ -47,6 +47,10 @@ defmodule Dispatcher do
     forward conn, path, "http://resource-labels-cache/"
   end
 
+  get "/id-search/*path", %{ accept: %{ json: true }, layer: :services } do
+    forward conn, path, "http://idsearch/"
+  end
+
 
   # FALLBACK ERROR PAGES
 
