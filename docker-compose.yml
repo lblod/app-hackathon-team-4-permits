@@ -16,6 +16,9 @@ services:
 
   # Your extra services here
 
+  idsearch:
+    image: lblod/hackathon-team-4-oe-id-search-service
+
   uri-info:
     image: redpencil/mu-uri-info-service:0.2.1
   resource-labels-cache:
