@@ -22,6 +22,8 @@ defmodule Dispatcher do
   # this file.
 
 
+  # FRONTEND
+
   match "/assets/*path", %{ layer: :static } do
     Proxy.forward conn, path, "http://frontend/assets/"
   end
@@ -34,6 +36,19 @@ defmodule Dispatcher do
     Proxy.forward conn, [], "http://frontend/index.html"
   end
 
+
+  # METIS SUBJECT-PAGES BACKEND
+
+  get "/uri-info/*path", %{ accept: %{ json: true }, layer: :services } do
+    forward conn, path, "http://uri-info/"
+  end
+
+  get "/resource-labels/*path", %{ accept: %{ json: true }, layer: :services } do
+    forward conn, path, "http://resource-labels-cache/"
+  end
+
+
+  # FALLBACK ERROR PAGES
 
   match "/*_", %{ layer: :not_found } do
     send_resp( conn, 404, "Route not found.  See config/dispatcher.ex" )
