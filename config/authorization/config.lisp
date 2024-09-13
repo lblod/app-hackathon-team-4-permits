@@ -54,6 +54,9 @@
   (_ -> _)) ; public allows ANY TYPE -> ANY PREDICATE in the direction
             ; of the arrow
 
+(define-graph user ("http://mu.semte.ch/graphs/our-single-user")
+  (_ -> _))
+
 ;; Example:
 ;; (define-graph company ("http://mu.semte.ch/graphs/companies/")
 ;;   ("foaf:OnlineAccount"
@@ -69,8 +72,12 @@
 
 (supply-allowed-group "public")
 
-(grant (read write)
+(grant (read)
        :to-graph public
+       :for-allowed-group "public")
+
+(grant (read)
+       :to-graph user
        :for-allowed-group "public")
 
 ;; example:
