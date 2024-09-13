@@ -1,0 +1,411 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ext: <http://mu.semte.ch/vocabularies/ext/> .
+
+@prefix schemes: <http://app.hackathon-4.s.redhost.be/schemes/> .
+@prefix concepts: <http://app.hackathon-4.s.redhost.be/schemes/> .
+@prefix mu: <http://mu.semte.ch/vocabularies/core/> .
+
+schemes:protected-items a skos:ConceptScheme ;
+  skos:prefLabel "Protected items" ;
+  mu:uuid "a8c81c38-7d79-4c5f-94a7-92af9eb8f3b0" .
+  
+concepts:c128c181-39c3-4680-9f40-779a050bebcc a skos:Concept ;
+  ext:order 0 ;
+  skos:prefLabel "Beschermde monumenten, beschermde cultuurhistorische landschappen en beschermde archeologische sites" ;
+  skos:topConceptOf schemes:protected-items ;
+  mu:uuid "c128c181-39c3-4680-9f40-779a050bebcc" .
+  
+concepts:b7d691f1-b4b4-471a-8ef0-f86463be6b8c
+  a skos:Concept ;
+  skos:broader concepts:c128c181-39c3-4680-9f40-779a050bebcc ;
+  ext:order 1 ;
+  mu:uuid "b7d691f1-b4b4-471a-8ef0-f86463be6b8c" ;
+  skos:prefLabel "aanmerkelijke reliëfwijziging van de bodem" .
+  
+concepts:86e52fe0-7bdb-4a1d-a211-b2f67dc2bc39
+  a skos:Concept ;
+  skos:broader concepts:c128c181-39c3-4680-9f40-779a050bebcc ;
+  mu:uuid "86e52fe0-7bdb-4a1d-a211-b2f67dc2bc39" ;
+  ext:order 2 ;
+  skos:prefLabel "elke handeling die een aanzienlijke wijziging van de landschapskenmerken tot gevolg heeft, met uitzondering van cultuurgewassen, onder meer voor de landbouw, en tuinbeplanting" .
+
+concepts:0b1e0813-fadd-418c-bb24-feb4bcdd0e59 a skos:Concept ;
+  ext:order 1 ;
+  skos:topConceptOf schemes:protected-items ;
+  skos:prefLabel "Beschermde monumenten" ;
+  mu:uuid "0b1e0813-fadd-418c-bb24-feb4bcdd0e59" .
+  
+concepts:24ccb5ab-a649-47de-9d9b-332d315d091c
+  a skos:Concept ;
+  skos:broader concepts:0b1e0813-fadd-418c-bb24-feb4bcdd0e59 ;
+  ext:order 1 ;
+  mu:uuid "24ccb5ab-a649-47de-9d9b-332d315d091c" ;
+  skos:prefLabel "het plaatsen, slopen, verbouwen of heropbouwen van een constructie" .
+  
+concepts:58d9038f-b796-46b2-9b6e-5b26da7d49ed
+  a skos:Concept ;
+  skos:broader concepts:0b1e0813-fadd-418c-bb24-feb4bcdd0e59 ;
+  ext:order 2 ;
+  mu:uuid "58d9038f-b796-46b2-9b6e-5b26da7d49ed" ;
+  skos:prefLabel "het verwijderen, vervangen, wijzigen of verstevigen van constructieve elementen" .
+  
+concepts:259d37a2-eedb-4677-8c61-8566440d5c5b
+  skos:broader concepts:0b1e0813-fadd-418c-bb24-feb4bcdd0e59 ;
+  a skos:Concept ;
+  ext:order 3 ;
+  mu:uuid "259d37a2-eedb-4677-8c61-8566440d5c5b" ;
+  skos:prefLabel "het verwijderen, vervangen of wijzigen van historische materialen en het toepassen van behandelingen met als doel de historische materialen te reinigen, te herstellen, te verduurzamen of te beschermen tegen verweer en aantasting" .
+  
+concepts:481366ff-a80e-4d1e-8baf-99ea5960ffec
+  a skos:Concept ;
+  skos:broader concepts:0b1e0813-fadd-418c-bb24-feb4bcdd0e59 ;
+  ext:order 4 ;
+  mu:uuid "481366ff-a80e-4d1e-8baf-99ea5960ffec" ;
+  skos:prefLabel "het uitvoeren van de volgende werken aan het dak en de buitenmuren van constructies" .
+  
+concepts:e2e9f0dd-e286-49e2-9be0-9bbb33e400a6
+  a skos:Concept ;
+  mu:uuid "e2e9f0dd-e286-49e2-9be0-9bbb33e400a6" ;
+  skos:broader concepts:481366ff-a80e-4d1e-8baf-99ea5960ffec ;
+  ext:order 0 ;
+  skos:prefLabel "het verwijderen, vervangen of wijzigen van dakbedekking en gootconstructies" .
+  
+concepts:9bcb1ee4-c025-4941-875a-4dff5f5ef817
+  a skos:Concept ;
+  mu:uuid "9bcb1ee4-c025-4941-875a-4dff5f5ef817" ;
+  skos:broader concepts:481366ff-a80e-4d1e-8baf-99ea5960ffec ;
+  ext:order 1 ;
+  skos:prefLabel "het verwijderen van voegen en het hervoegen" .
+  
+concepts:42f136fb-d7fc-4b30-bf82-848bc3335ad8
+  a skos:Concept ;
+  mu:uuid "42f136fb-d7fc-4b30-bf82-848bc3335ad8" ;
+  skos:broader concepts:481366ff-a80e-4d1e-8baf-99ea5960ffec ;
+  ext:order 2 ;
+  skos:prefLabel "het aanbrengen, verwijderen, vervangen of wijzigen van de kleur, textuur of samenstelling van de afwerkingslagen" .
+  
+concepts:c318556a-48f1-47e7-a2e8-d1c0de86006b
+  a skos:Concept ;
+  mu:uuid "c318556a-48f1-47e7-a2e8-d1c0de86006b" ;
+  skos:broader concepts:481366ff-a80e-4d1e-8baf-99ea5960ffec ;
+  ext:order 3 ;
+  skos:prefLabel "het aanbrengen, verwijderen, vervangen of wijzigen van buitenschrijnwerken, deuren, ramen, luiken, poorten, inclusief de al dan niet figuratieve beglazing, beslag, hang- en sluitwerk" .
+  
+concepts:1ec42d3f-b160-4188-a3e4-2fb1284f1ba7
+  a skos:Concept ;
+  mu:uuid "1ec42d3f-b160-4188-a3e4-2fb1284f1ba7" ;
+  skos:broader concepts:481366ff-a80e-4d1e-8baf-99ea5960ffec ;
+  ext:order 4 ;
+  skos:prefLabel "het aanbrengen, verwijderen, vervangen of wijzigen van aard- en nagelvaste elementen, smeedijzer en beeldhouwwerk, inclusief nieuwe toevoegingen" .
+  
+concepts:2eb3d0f9-bbd2-4204-9352-2ae1d11d571b
+  a skos:Concept ;
+  mu:uuid "2eb3d0f9-bbd2-4204-9352-2ae1d11d571b" ;
+  skos:broader concepts:481366ff-a80e-4d1e-8baf-99ea5960ffec ;
+  ext:order 5 ;
+  skos:prefLabel "het aanbrengen, vervangen of wijzigen van opschriften, publiciteitsinrichtingen of uithangborden, met uitzondering van verkiezingspubliciteit en met uitzondering van publiciteitsinrichtingen, waarbij wordt bekendgemaakt dat het goed te koop of te huur is, op voorwaarde dat de totale maximale oppervlakte niet meer bedraagt dan 4 m²" .
+  
+concepts:82efe026-d790-4dd8-a947-8017b938a175
+  a skos:Concept ;
+  skos:broader concepts:0b1e0813-fadd-418c-bb24-feb4bcdd0e59 ;
+  ext:order 5 ;
+  mu:uuid "82efe026-d790-4dd8-a947-8017b938a175" ;
+  skos:prefLabel "het uitvoeren van de volgende omgevingswerken" .
+  
+concepts:0bbd74a7-46fe-484a-bcbc-134947de7c61
+  a skos:Concept ;
+  mu:uuid "0bbd74a7-46fe-484a-bcbc-134947de7c61" ;
+  skos:broader concepts:82efe026-d790-4dd8-a947-8017b938a175 ;
+  ext:order 6 ;
+  skos:prefLabel "het plaatsen of wijzigen van bovengrondse nutsvoorzieningen en leidingen" .
+  
+concepts:87c02289-b360-41c8-a767-2b94a5ce730f
+  a skos:Concept ;
+  mu:uuid "87c02289-b360-41c8-a767-2b94a5ce730f" ;
+  skos:broader concepts:82efe026-d790-4dd8-a947-8017b938a175 ;
+  ext:order 7 ;
+  skos:prefLabel "het plaatsen of wijzigen van afsluitingen, met uitzondering van gladde schrikdraad en prikkeldraad ten behoeve van veekering" .
+  
+concepts:5c01f42a-ccf1-453c-a3d8-9d53faa57616
+  a skos:Concept ;
+  mu:uuid "5c01f42a-ccf1-453c-a3d8-9d53faa57616" ;
+  skos:broader concepts:82efe026-d790-4dd8-a947-8017b938a175 ;
+  ext:order 8 ;
+  skos:prefLabel "het aanleggen, structureel en fundamenteel wijzigen of verwijderen van wegen en paden" .
+  
+concepts:c030f289-4222-4061-a1b9-40ba21dd411d
+  a skos:Concept ;
+  mu:uuid "c030f289-4222-4061-a1b9-40ba21dd411d" ;
+  skos:broader concepts:82efe026-d790-4dd8-a947-8017b938a175 ;
+  ext:order 9 ;
+  skos:prefLabel "het vellen of beschadigen van bomen en struiken die opgenomen zijn in het beschermingsbesluit of in een goedgekeurd beheersplan, en elke handeling die een wijziging van de groeiplaats en groeivorm van de bomen en de struiken die opgenomen zijn in het beschermingsbesluit of in een goedgekeurd beheersplan tot gevolg kan hebben" .
+  
+concepts:b398ddd8-4645-4855-a048-a4631ba0452a
+  a skos:Concept ;
+  mu:uuid "b398ddd8-4645-4855-a048-a4631ba0452a" ;
+  skos:broader concepts:82efe026-d790-4dd8-a947-8017b938a175 ;
+  ext:order 10 ;
+  skos:prefLabel "het aanleggen of wijzigen van verharding met een minimale gezamenlijke grondoppervlakte van 30 m² of het uitbreiden van bestaande verhardingen met minimaal 30 m², met uitzondering van verhardingen geplaatst binnen een straal van 30 meter rond een vergund of een vergund geacht gebouw" .
+  
+concepts:c586c3c9-cf20-48f4-8e5f-3d93db47fbc9
+  a skos:Concept ;
+  mu:uuid "c586c3c9-cf20-48f4-8e5f-3d93db47fbc9" ;
+  skos:broader concepts:82efe026-d790-4dd8-a947-8017b938a175 ;
+  ext:order 11 ;
+  skos:prefLabel "het plaatsen of wijzigen van straatmeubilair, met uitzondering van niet-aard- en niet-nagelvaste elementen en verkeersborden vermeld in artikel 65 van het Koninklijk Besluit van 1 december 1975 houdende algemeen reglement op de politie van het wegverkeer en van het gebruik van de openbare weg" .
+  
+concepts:603fd4b0-02d4-45bd-87c2-1ee6b55be1e9
+  a skos:Concept ;
+  mu:uuid "603fd4b0-02d4-45bd-87c2-1ee6b55be1e9" ;
+  skos:broader concepts:82efe026-d790-4dd8-a947-8017b938a175 ;
+  ext:order 12 ;
+  skos:prefLabel "het aanleggen van sport- en spelinfrastructuur of parkeerplaatsen" .
+  
+concepts:d639867d-4307-478a-8c43-7c519e361418
+  a skos:Concept ;
+  mu:uuid "d639867d-4307-478a-8c43-7c519e361418" ;
+  skos:broader concepts:82efe026-d790-4dd8-a947-8017b938a175 ;
+  ext:order 13 ;
+  skos:prefLabel "het structureel en fundamenteel wijzigen van de aanleg van tuinen of parken met erfgoedwaarde en begraafplaatsen" .
+  
+concepts:b34ea599-df89-4191-a157-39223dde00c5 a skos:Concept ;
+  ext:order 2 ;
+  skos:topConceptOf schemes:protected-items ;
+  skos:prefLabel "Het interieur van beschermde monumenten en de cultuurgoederen die er integrerend deel van uitmaken" ;
+  mu:uuid "b34ea599-df89-4191-a157-39223dde00c5" .
+  
+concepts:05b6537a-1734-443e-b892-753dd4fd8937
+  a skos:Concept ;
+  skos:broader concepts:b34ea599-df89-4191-a157-39223dde00c5 ;
+  ext:order 1 ;
+  mu:uuid "05b6537a-1734-443e-b892-753dd4fd8937" ;
+  skos:prefLabel "het uitvoeren van destructief materiaaltechnisch onderzoek" .
+  
+concepts:3ea28581-f806-4b9e-af6a-2accc3ef6d8c
+  a skos:Concept ;
+  skos:broader concepts:b34ea599-df89-4191-a157-39223dde00c5 ;
+  ext:order 2 ;
+  mu:uuid "3ea28581-f806-4b9e-af6a-2accc3ef6d8c" ;
+  skos:prefLabel "het uitvoeren van structurele werken en het toevoegen van nieuwe structuren" .
+  
+concepts:6e908f32-095f-487d-b972-057cd02a52ba
+  a skos:Concept ;
+  skos:broader concepts:b34ea599-df89-4191-a157-39223dde00c5 ;
+  ext:order 3 ;
+  mu:uuid "6e908f32-095f-487d-b972-057cd02a52ba" ;
+  skos:prefLabel "het verwijderen, vervangen of wijzigen van historische materialen en het toepassen van behandelingen met als doel de historische materialen te reinigen, te herstellen, te verduurzamen of te beschermen tegen verweer en aantasting" .
+  
+concepts:098ad1cd-e5f1-4f59-ac2f-28b8f1216718
+  a skos:Concept ;
+  skos:broader concepts:b34ea599-df89-4191-a157-39223dde00c5 ;
+  ext:order 4 ;
+  mu:uuid "098ad1cd-e5f1-4f59-ac2f-28b8f1216718" ;
+  skos:prefLabel "het verwijderen, vervangen of wijzigen van plafonds, gewelven, vloeren, trappen, binnenschrijnwerken, inclusief de al dan niet figuratieve beglazing, lambrisering, beslag, hang- en sluitwerk, en van de waardevolle interieurdecoratie" .
+  
+concepts:b01f4291-e03d-4f8e-bfc6-a1c7d84184c8
+  a skos:Concept ;
+  skos:broader concepts:b34ea599-df89-4191-a157-39223dde00c5 ;
+  ext:order 5 ;
+  mu:uuid "b01f4291-e03d-4f8e-bfc6-a1c7d84184c8" ;
+  skos:prefLabel "het bepleisteren van niet-bepleisterde elementen of het bepleisteren met een andere samenstelling of textuur, alsook het ontpleisteren van bepleisterde elementen" .
+  
+concepts:ce30056c-87bc-48f4-b19a-2f2fba29d39b
+  a skos:Concept ;
+  skos:broader concepts:b34ea599-df89-4191-a157-39223dde00c5 ;
+  ext:order 6 ;
+  mu:uuid "ce30056c-87bc-48f4-b19a-2f2fba29d39b" ;
+  skos:prefLabel "het beschilderen van ongeschilderde elementen of het schilderen in andere kleuren of kleurschakeringen of met een andere verfsoort dan de aanwezige" .
+  
+concepts:b2cc8946-66bc-492a-8354-f519d2478879
+  a skos:Concept ;
+  skos:broader concepts:b34ea599-df89-4191-a157-39223dde00c5 ;
+  ext:order 7 ;
+  mu:uuid "b2cc8946-66bc-492a-8354-f519d2478879" ;
+  skos:prefLabel "het uitvoeren van werken aan en het verplaatsen of verwijderen van de cultuurgoederen die opgenomen zijn in een beschermingsbesluit" .
+  
+
+concepts:477b816a-2eb6-451b-a4be-33cc89829858 a skos:Concept ;
+  ext:order 3 ;
+  skos:prefLabel "Monument beschermd industrieel erfgoed" ;
+  skos:topConceptOf schemes:protected-items ;
+  mu:uuid "477b816a-2eb6-451b-a4be-33cc89829858" .
+  
+concepts:b47610fc-ad69-4769-80b4-f05b107ab341
+  a skos:Concept ;
+  skos:broader concepts:477b816a-2eb6-451b-a4be-33cc89829858 ;
+  ext:order 1 ;
+  mu:uuid "b47610fc-ad69-4769-80b4-f05b107ab341" ;
+  skos:prefLabel "het wijzigen, vervangen of herstellen van het beschermd goed of onderdeel ervan met niet-originele materialen en constructietechnieken" .
+  
+concepts:24d55931-a638-4695-b577-9a468b7e2163
+  a skos:Concept ;
+  skos:broader concepts:477b816a-2eb6-451b-a4be-33cc89829858 ;
+  ext:order 2 ;
+  mu:uuid "24d55931-a638-4695-b577-9a468b7e2163" ;
+  skos:prefLabel "het volledig of gedeeltelijk uiteen nemen, het verplaatsen of het wijzigen van de technische kenmerken van toestellen" .
+  
+concepts:ef9758ae-83d2-490c-b281-9856427e534d a skos:Concept ;
+  skos:broader concepts:477b816a-2eb6-451b-a4be-33cc89829858 ;
+  ext:order 4 ;
+  skos:topConceptOf schemes:protected-items ;
+  skos:prefLabel "als monument beschermde orgels" ;
+  mu:uuid "ef9758ae-83d2-490c-b281-9856427e534d" .
+  
+concepts:f0f59ce2-e4bb-40ba-a4ae-df730b43613b
+  a skos:Concept ;
+  skos:broader concepts:ef9758ae-83d2-490c-b281-9856427e534d ;
+  ext:order 1 ;
+  mu:uuid "f0f59ce2-e4bb-40ba-a4ae-df730b43613b" ;
+  skos:prefLabel "het wijzigen van de onmiddellijke akoestische, thermische of klimatologische omgeving" .
+  
+concepts:47a4a09f-c83e-4b82-9c35-e05c7181f393
+  a skos:Concept ;
+  skos:broader concepts:ef9758ae-83d2-490c-b281-9856427e534d ;
+  ext:order 2 ;
+  mu:uuid "47a4a09f-c83e-4b82-9c35-e05c7181f393" ;
+  skos:prefLabel "het winddicht maken van windladen waarbij werken nodig zijn aan de fundamenttafel, de canceldichting onderaan, de slepen, de pijpstokken, pijproosters en ventielen" .
+  
+concepts:5405ee1e-988e-43c2-9186-0e8cf6219b8b
+  a skos:Concept ;
+  skos:broader concepts:ef9758ae-83d2-490c-b281-9856427e534d ;
+  ext:order 3 ;
+  mu:uuid "5405ee1e-988e-43c2-9186-0e8cf6219b8b" ;
+  skos:prefLabel "het vernieuwen of opnieuw belederen van de blaasbalgen, dichtingswerken aan de windkanalen" .
+  
+concepts:17bb5cef-357f-4451-b4fa-655def1677f6
+  a skos:Concept ;
+  skos:broader concepts:ef9758ae-83d2-490c-b281-9856427e534d ;
+  ext:order 4 ;
+  mu:uuid "17bb5cef-357f-4451-b4fa-655def1677f6" ;
+  skos:prefLabel "systematisch en globaal herstelwerk aan of uitlengen van historisch pijpwerk, alsook verstevigings- en herstelwerk aan historische frontpijpen" .
+  
+concepts:4af0f8d1-f7dd-4748-9a24-5641e873289a
+  a skos:Concept ;
+  skos:broader concepts:ef9758ae-83d2-490c-b281-9856427e534d ;
+  ext:order 5 ;
+  mu:uuid "4af0f8d1-f7dd-4748-9a24-5641e873289a" ;
+  skos:prefLabel "soldeerwerk verrichten aan oude pijpen, opsneden verlagen of verhogen, inkorten van pijpwerk, en systematisch wijzigen van voetopeningen of het aanbrengen van nieuwe steminsnijdingen" .
+  
+concepts:ec780a15-5839-4d38-a946-efd015831260
+  a skos:Concept ;
+  skos:broader concepts:ef9758ae-83d2-490c-b281-9856427e534d ;
+  ext:order 6 ;
+  mu:uuid "ec780a15-5839-4d38-a946-efd015831260" ;
+  skos:prefLabel "kaders van windladen doorboren en laden onderaan doorprikken" .
+  
+concepts:6385b02d-42a6-4682-9d15-5c29b7d475ef
+  a skos:Concept ;
+  skos:broader concepts:ef9758ae-83d2-490c-b281-9856427e534d ;
+  ext:order 7 ;
+  mu:uuid "6385b02d-42a6-4682-9d15-5c29b7d475ef" ;
+  skos:prefLabel "wijzigingen aanbrengen aan de orgelkast" .
+  
+concepts:60615475-5e91-43d7-a895-10676d2d8057
+  a skos:Concept ;
+  skos:broader concepts:ef9758ae-83d2-490c-b281-9856427e534d ;
+  ext:order 8 ;
+  mu:uuid "60615475-5e91-43d7-a895-10676d2d8057" ;
+  skos:prefLabel "het demonteren, verplaatsen of vervangen van het orgel of delen ervan" .
+  
+concepts:8e7e1cf0-5bb1-4619-83b9-77df21b9d8b5 a skos:Concept ;
+  ext:order 5 ;
+  skos:topConceptOf schemes:protected-items ;
+  skos:prefLabel "als monument beschermde klokken, klokkenspelen en beiaarden" ;
+  mu:uuid "8e7e1cf0-5bb1-4619-83b9-77df21b9d8b5" .
+  
+concepts:5c9c534e-7549-4445-8015-29ee1e9fdc07
+  a skos:Concept ;
+  skos:broader concepts:8e7e1cf0-5bb1-4619-83b9-77df21b9d8b5 ;
+  ext:order 1 ;
+  mu:uuid "5c9c534e-7549-4445-8015-29ee1e9fdc07" ;
+  skos:prefLabel "werken aan de klokken zelf: lassen van scheuren, herstel van kronen, stemmingscorrecties, restaureren of vervangen van klepels, het keren van een klok met als doel een nieuw slagvlak te creëren" .
+  
+concepts:21e30623-8ff3-4c62-a57d-28cb0859ba75
+  a skos:Concept ;
+  skos:broader concepts:8e7e1cf0-5bb1-4619-83b9-77df21b9d8b5 ;
+  ext:order 2 ;
+  mu:uuid "21e30623-8ff3-4c62-a57d-28cb0859ba75" ;
+  skos:prefLabel "het verplaatsen van een klok, zowel binnen de bestaande klokkenstoel als naar een andere locatie" .
+  
+concepts:1bb3d0c1-70d4-480f-b266-01ddb5a7d3dd
+  a skos:Concept ;
+  skos:broader concepts:8e7e1cf0-5bb1-4619-83b9-77df21b9d8b5 ;
+  ext:order 3 ;
+  mu:uuid "1bb3d0c1-70d4-480f-b266-01ddb5a7d3dd" ;
+  skos:prefLabel "het vervangen van ophangconstructies en luidbalken" .
+  
+concepts:17c0ddaf-5bb6-437f-a9c3-507598963660
+  a skos:Concept ;
+  skos:broader concepts:8e7e1cf0-5bb1-4619-83b9-77df21b9d8b5 ;
+  ext:order 4 ;
+  mu:uuid "17c0ddaf-5bb6-437f-a9c3-507598963660" ;
+  skos:prefLabel "het uitbreiden van een gelui of een beiaard" .
+  
+concepts:5eb81f46-3d33-4474-b2bd-cbe4d10c957d
+  a skos:Concept ;
+  skos:broader concepts:8e7e1cf0-5bb1-4619-83b9-77df21b9d8b5 ;
+  ext:order 5 ;
+  mu:uuid "5eb81f46-3d33-4474-b2bd-cbe4d10c957d" ;
+  skos:prefLabel "het restaureren of vervangen van een klokkenstoel, van luidwielen, van beiaardklavieren, speelmechanieken of speeltrommels" .
+  
+concepts:925536f3-2be0-46bd-a1a3-6529105613f3 a skos:Concept ;
+  ext:order 6 ;
+  skos:topConceptOf schemes:protected-items ;
+  skos:prefLabel "als monument beschermde uurwerken" ;
+  mu:uuid "925536f3-2be0-46bd-a1a3-6529105613f3" .
+  
+concepts:c816b7dc-6f90-4e4b-960a-9894ddf98983
+  a skos:Concept ;
+  skos:broader concepts:925536f3-2be0-46bd-a1a3-6529105613f3 ;
+  ext:order 1 ;
+  mu:uuid "c816b7dc-6f90-4e4b-960a-9894ddf98983" ;
+  skos:prefLabel "het vervangen van opwindsystemen en het herstellen van originele gewichtsaandrijving" .
+  
+concepts:968655fc-6e6a-4699-a4a6-39cec4d6dd5e
+  a skos:Concept ;
+  skos:broader concepts:925536f3-2be0-46bd-a1a3-6529105613f3 ;
+  ext:order 2 ;
+  mu:uuid "968655fc-6e6a-4699-a4a6-39cec4d6dd5e" ;
+  skos:prefLabel "het reinigen of verven van onderdelen" .
+  
+concepts:f13f282b-5460-4d64-93e2-bc2b49fd5a59
+  a skos:Concept ;
+  skos:broader concepts:925536f3-2be0-46bd-a1a3-6529105613f3 ;
+  ext:order 3 ;
+  mu:uuid "f13f282b-5460-4d64-93e2-bc2b49fd5a59" ;
+  skos:prefLabel "het herstellen van de wijzeraandrijvingen" .
+  
+concepts:28e45eee-30be-4274-9297-5791a2127c89
+  a skos:Concept ;
+  skos:broader concepts:925536f3-2be0-46bd-a1a3-6529105613f3 ;
+  ext:order 4 ;
+  mu:uuid "28e45eee-30be-4274-9297-5791a2127c89" ;
+  skos:prefLabel "het vervangen van originele onderdelen" .
+  
+concepts:81066334-d63d-42e3-8bfd-9592c25dbcfa
+  a skos:Concept ;
+  skos:broader concepts:925536f3-2be0-46bd-a1a3-6529105613f3 ;
+  ext:order 5 ;
+  mu:uuid "81066334-d63d-42e3-8bfd-9592c25dbcfa" ;
+  skos:prefLabel "het mechanisch ingrijpen aan authentiek materiaal" .
+  
+concepts:fdb424af-016d-4f29-95b9-bcd4592ee11e
+  a skos:Concept ;
+  skos:broader concepts:925536f3-2be0-46bd-a1a3-6529105613f3 ;
+  ext:order 6 ;
+  mu:uuid "fdb424af-016d-4f29-95b9-bcd4592ee11e" ;
+  skos:prefLabel "het verplaatsen van een uurwerk, zowel binnen de klokkentoren als naar een andere locatie" .
+  
+concepts:07bb9504-afdd-4437-9983-5fc1e86ebb6e
+  a skos:Concept ;
+  skos:broader concepts:925536f3-2be0-46bd-a1a3-6529105613f3 ;
+  ext:order 7 ;
+  mu:uuid "07bb9504-afdd-4437-9983-5fc1e86ebb6e" ;
+  skos:prefLabel "het buiten gebruik stellen van een historisch uurwerk" .
+  
+concepts:5dd0d95f-e5e4-4d8e-9a75-358e34622a7b a skos:Concept ;
+  ext:order 7 ;
+  skos:topConceptOf schemes:protected-items ;
+  skos:prefLabel "Het ontgraven van een binnenkerkse begraving of een gesloten begraafplaats binnen een beschermd monument, een beschermd stads- of dorpsgezicht of een beschermd cultuurhistorisch landschap" ;
+  mu:uuid "5dd0d95f-e5e4-4d8e-9a75-358e34622a7b" .
+  

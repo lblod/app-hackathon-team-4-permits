@@ -52,6 +52,17 @@ defmodule Dispatcher do
   end
 
 
+  # RESOURCE
+
+  match "/concepts/*path", @json do
+    Proxy.forward conn, path, "http://resource/concepts/"
+  end
+
+  match "/concept-schemes/*path", @json do
+    Proxy.forward conn, path, "http://resource/concept-schemes/"
+  end
+
+
   # FALLBACK ERROR PAGES
 
   match "/*_", %{ layer: :not_found } do

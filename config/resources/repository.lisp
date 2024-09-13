@@ -32,3 +32,4 @@
 ;; by them and that it shouldn't be used for permanent URIs.
 
 (add-prefix "ext" "http://mu.semte.ch/vocabularies/ext/")
+(add-prefix "skos" "http://www.w3.org/2004/02/skos/core#")

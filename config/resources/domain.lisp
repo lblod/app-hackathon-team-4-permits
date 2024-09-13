@@ -22,5 +22,26 @@
 ;;   :resource-base (s-url "http://webcat.tmp.semte.ch/datasets/")
 ;;   :on-path "datasets")
 
+(define-resource concept-scheme ()
+  :class (s-prefix "skos:ConceptScheme")
+  :properties `((:label :string ,(s-prefix "skos:prefLabel")))
+  :has-many `((concept :via ,(s-prefix "skos:topConceptOf")
+                       :inverse t
+                       :as "children"))
+  :resource-base (s-url "http://app.hackathon-4.s.redhost.be/schemes/")
+  :on-path "concept-schemes")
+
+(define-resource concept ()
+  :class (s-prefix "skos:Concept")
+  :properties `((:label :string ,(s-prefix "skos:prefLabel"))
+                (:order :number ,(s-prefix "ext:number")))
+  :has-many `((concept :via ,(s-prefix "skos:broader")
+                       :inverse t
+                       :as "children"))
+  :has-one `((concept :via ,(s-prefix "skos:broader")
+                      :as "parent"))
+  :resource-base (s-url "http://app.hackathon-4.s.redhost.be/concepts/")
+  :on-path "concepts")
+
 ;; reading in the domain.json
 (read-domain-file "domain.json")
