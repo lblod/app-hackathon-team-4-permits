@@ -1,0 +1,582 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/15> a skos:Collection ;
+    dcterms:identifier "15" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/1> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/1> a skos:Concept ;
+    dcterms:identifier "1" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "beschermd monument"@nl ;
+    skos:scopeNote "Een beschermd monument is een onroerend goed dat tot stand is gekomen door de mens, door de natuur of door beide samen, met inbegrip van de cultuurgoederen die er integrerend deel van uitmaken. Het bezit een of meerdere erfgoedwaarden en is voorlopig of definitief beschermd overeenkomstig hoofdstuk 6 van het onroerenderfgoeddecreet. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/15> a skos:Collection ;
+    dcterms:identifier "15" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/2> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/2> a skos:Concept ;
+    dcterms:identifier "2" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "beschermd cultuurhistorisch landschap"@nl ;
+    skos:scopeNote "Een beschermd cultuurhistorisch landschap is een begrensde grondoppervlakte met een geringe dichtheid van bebouwing en een onderlinge samenhang waarvan de verschijningsvorm en de samenhang het resultaat zijn van natuurlijke processen en van maatschappelijke ontwikkelingen. Het bezit een of meerdere erfgoedwaarden en is voorlopig of definitief beschermd overeenkomstig hoofdstuk 6 van het onroerenderfgoeddecreet. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/15> a skos:Collection ;
+    dcterms:identifier "15" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/3> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/3> a skos:Concept ;
+    dcterms:identifier "3" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:narrower <https://id.erfgoed.net/thesauri/aanduidingstypes/7>,
+        <https://id.erfgoed.net/thesauri/aanduidingstypes/8> ;
+    skos:prefLabel "beschermd stads- of dorpsgezicht"@nl ;
+    skos:scopeNote "Een beschermd stads- of dorpsgezicht is een geheel van onroerende goederen met omgevende elementen zoals beplantingen, omheiningen, waterlopen, bruggen, wegen, straten en pleinen. Het bezit een of meerdere erfgoedwaarden en is voorlopig of definitief beschermd overeenkomstig hoofdstuk 6 van het onroerenderfgoeddecreet. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/15> a skos:Collection ;
+    dcterms:identifier "15" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/4> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/4> a skos:Concept ;
+    dcterms:identifier "4" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "beschermde archeologische site"@nl ;
+    skos:scopeNote "Een beschermde archeologische site is een onroerend goed dat ondergronds, aan de oppervlakte of onder water aanwezig is, met inbegrip van de archeologische artefacten die er integrerend deel van uitmaken. Het bezit archeologische erfgoedwaarde en is voorlopig of definitief beschermd overeenkomstig hoofdstuk 6 van het onroerenderfgoeddecreet."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/15> a skos:Collection ;
+    dcterms:identifier "15" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/5> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/5> a skos:Concept ;
+    dcterms:identifier "5" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "beschermd varend erfgoed"@nl ;
+    skos:scopeNote "Beschermd varend erfgoed is nautisch erfgoed dat kan varen of drijven, of dat in de vaart kan worden gebracht of drijvend kan worden gemaakt, in het bijzonder schepen, boten en drijvende inrichtingen met inbegrip van hun uitrusting en van hun voortstuwingsmiddelen. Het bezit een of meerdere erfgoedwaarden en is voorlopig of definitief beschermd overeenkomstig hoofdstuk II van het varenderfgoeddecreet."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/15> a skos:Collection ;
+    dcterms:identifier "15" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/6> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/6> a skos:Concept ;
+    dcterms:identifier "6" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "overgangszone"@nl ;
+    skos:scopeNote "Een overgangszone is een begrensde grondoppervlakte die de erfgoedwaarde van een beschermde archeologische site, monument, cultuurhistorisch landschap of stads- en dorpsgezicht ondersteunt."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/7> a skos:Concept ;
+    dcterms:identifier "7" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:broader <https://id.erfgoed.net/thesauri/aanduidingstypes/3> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "beschermd stads- of dorpsgezicht, intrinsiek"@nl ;
+    skos:scopeNote "Een intrinsiek beschermd stads- of dorpsgezicht is een beschermd stads- of dorpsgezicht dat zijn erfgoedwaarde ontleent aan zijn totaalkarakter."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/8> a skos:Concept ;
+    dcterms:identifier "8" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:broader <https://id.erfgoed.net/thesauri/aanduidingstypes/3> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "beschermd stads- of dorpsgezicht, ondersteunend"@nl ;
+    skos:scopeNote "Een ondersteunend beschermd stads- of dorpsgezicht is een beschermd stads- of dorpsgezicht dat zijn waarde ontleent aan het monument waarrond het als een soort buffer fungeert. Het heeft ofwel een beeldbepalend karakter waardoor het monument beter tot zijn recht komt, ofwel eigenschappen die de instandhouding en het onderhoud van het monument waarborgen, bv. ruimte om de windvang van een molen te garanderen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/16> a skos:Collection ;
+    dcterms:identifier "16" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/9> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/9> a skos:Concept ;
+    dcterms:identifier "9" ;
+    skos:definition "Vastgesteld bouwkundig erfgoed is bouwkundig erfgoed dat vastgesteld is  overeenkomstig hoofdstuk 4 van het onroerenderfgoeddecreet.  De term \"bouwkundig erfgoed\" wordt hierbij gehanteerd in de meest ruime zin van het woord: elk type van gebouw of gebouwengroepen en complexen, met bijhorende interieurs en (onroerende) interieurelementen. "@nl-BE ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "vastgesteld bouwkundig erfgoed"@nl .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/16> a skos:Collection ;
+    dcterms:identifier "16" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/10> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/10> a skos:Concept ;
+    dcterms:identifier "10" ;
+    skos:altLabel "vastgesteld landschapsatlasrelict"@nl ;
+    skos:historyNote "08/08/2024: voorkeursterm gewijzigd van 'vastgesteld landschapsatlasrelict' naar 'vastgesteld gebied in de landschapsatlas'"@nl-BE ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "vastgesteld gebied in de landschapsatlas"@nl-BE ;
+    skos:scopeNote "Een vastgesteld gebied in de landschapsatlas is een gebied dat getuigt van het vroegere landschap, en dat vastgesteld is overeenkomstig hoofdstuk 4 van het onroerenderfgoeddecreet. Een vastgesteld gebied in de landschapsatlas kan zowel een groot en complex landschappelijk geheel zijn, als een klein landschapselement van natuurlijke of antropogene oorsprong, zoals holle wegen, hoogstamboomgaarden, sloten, poelen, waterlopen, akkercomplexen enzovoort."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/16> a skos:Collection ;
+    dcterms:identifier "16" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/11> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/11> a skos:Concept ;
+    dcterms:identifier "11" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "vastgestelde archeologische zone"@nl ;
+    skos:scopeNote "Een vastgestelde archeologische zone is een zone waarvan op basis van waarnemingen en wetenschappelijke argumenten onderbouwd kan worden dat ze met hoge waarschijnlijkheid archeologische waarde heeft, en vastgesteld is overeenkomstig hoofdstuk 4 van het onroerenderfgoeddecreet."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/16> a skos:Collection ;
+    dcterms:identifier "16" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/12> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/12> a skos:Concept ;
+    dcterms:identifier "12" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "vastgestelde houtige beplanting met erfgoedwaarde"@nl ;
+    skos:scopeNote "Een vastgestelde houtige beplanting met erfgoedwaarde is een beplantingsvorm die representatief is voor het werk van de mens of van de natuur of van beide samen, en vastgesteld is overeenkomstig hoofdstuk 4 van het onroerenderfgoeddecreet."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/16> a skos:Collection ;
+    dcterms:identifier "16" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/13> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/13> a skos:Concept ;
+    dcterms:identifier "13" ;
+    skos:definition "Een vastgestelde historische tuin of park is een historische tuin of park die vastgesteld is overeenkomstig hoofdstuk 4 van het onroerenderfgoeddecreet. De opgenomen items kunnen zowel qua schaal als functie zeer uiteenlopend zijn en variëren onder meer van bescheiden voortuinen en villatuinen over stadsparken en de groene aanleg van tuinwijken tot kasteeldomeinen van verschillende hectaren."@nl-BE ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "vastgestelde historische tuin of park"@nl .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/16> a skos:Collection ;
+    dcterms:identifier "16" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/14> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/14> a skos:Concept ;
+    dcterms:identifier "14" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "vastgesteld varend erfgoed"@nl ;
+    skos:scopeNote "Vastgesteld varend erfgoed is varend erfgoed dat vastgesteld is overeenkomstig hoofdstuk I van het varenderfgoeddecreet. Het varend erfgoed omvat heel diverse soorten vaartuigen zoals schepen, boten, drijvende inrichtingen met inbegrip van hun uitrusting en van hun voortstuwingsmiddelen."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/15> a skos:Collection ;
+    dcterms:identifier "15" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/1>,
+        <https://id.erfgoed.net/thesauri/aanduidingstypes/2>,
+        <https://id.erfgoed.net/thesauri/aanduidingstypes/3>,
+        <https://id.erfgoed.net/thesauri/aanduidingstypes/4>,
+        <https://id.erfgoed.net/thesauri/aanduidingstypes/5>,
+        <https://id.erfgoed.net/thesauri/aanduidingstypes/6> ;
+    skos:prefLabel "beschermd erfgoed"@nl ;
+    skos:scopeNote "Beschermd erfgoed betreft zowel onroerend erfgoed dat voorlopig of defintief beschermd is overeenkomstig hoofdstuk 6 van het onroerenderfgoeddecreet, als varend erfgoed dat voorlopig of definitief beschermd is overeenkomstig hoofdstuk II van het varenderfgoeddecreet. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/16> a skos:Collection ;
+    dcterms:identifier "16" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/10>,
+        <https://id.erfgoed.net/thesauri/aanduidingstypes/11>,
+        <https://id.erfgoed.net/thesauri/aanduidingstypes/12>,
+        <https://id.erfgoed.net/thesauri/aanduidingstypes/13>,
+        <https://id.erfgoed.net/thesauri/aanduidingstypes/14>,
+        <https://id.erfgoed.net/thesauri/aanduidingstypes/24>,
+        <https://id.erfgoed.net/thesauri/aanduidingstypes/9> ;
+    skos:prefLabel "vastgesteld erfgoed"@nl ;
+    skos:scopeNote "Vastgesteld erfgoed betreft zowel onroerend erfgoed dat vastgesteld is overeenkomstig hoofdstuk 4 van het onroerenderfgoeddecreet, als varend erfgoed dat vastgesteld is overeenkomstig hoofdstuk I van het varenderfgoeddecreet. "@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/17> a skos:Concept ;
+    dcterms:identifier "17" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "erfgoedlandschap"@nl ;
+    skos:scopeNote "Een erfgoedlandschap is een gebied dat afgebakend is in een ruimtelijk uitvoeringsplan (RUP) op basis van een vastgestelde inventaris of een onroerenderfgoedrichtplan. Daarbij worden de maatregelen voor het behoud van de erfgoedwaarden en -kenmerken ingeschreven in de stedenbouwkundige voorschriften."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/18> a skos:Collection ;
+    dcterms:identifier "18" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:definition "Unesco werelderfgoed is cultureel of natuurlijk erfgoed dat van uitzonderlijke universele waarde is voor de mensheid. Het is ingeschreven op de Unesco Werelderfgoedlijst."@nl-BE ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/19>,
+        <https://id.erfgoed.net/thesauri/aanduidingstypes/20> ;
+    skos:prefLabel "Unesco werelderfgoed"@nl .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/18> a skos:Collection ;
+    dcterms:identifier "18" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/19> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/19> a skos:Concept ;
+    dcterms:identifier "19" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "Unesco werelderfgoed kernzone"@nl ;
+    skos:scopeNote "Een Unesco werelderfgoed kernzone is een gebied dat door Unesco erkend is als werelderfgoedsite. De kernzone omvat het gebied dat een directe en tastbare uitdrukking geeft aan de uitzonderlijke universele waarde van het cultureel of natuurlijk erfgoed, evenals de gebieden die in het licht van toekomstige onderzoeksmogelijkheden potentieel bieden om bij te dragen aan een dergelijk begrip en dit te vergroten. De grenzen van de kernzone voldoen eveneens aan de ruimtelijke vereisten van habitats, soorten, processen of fenomenen die de basis vormen voor de inschrijving op de Werelderfgoedlijst."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/18> a skos:Collection ;
+    dcterms:identifier "18" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/20> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/20> a skos:Concept ;
+    dcterms:identifier "20" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "Unesco werelderfgoed bufferzone"@nl ;
+    skos:scopeNote "Een Unesco werelderfgoed bufferzone is een gebied dat door Unesco vastgesteld is en een Unesco werelderfgoed kernzone omringt of erbij aansluit. De bufferzone kan bestaan uit de onmiddellijke omgeving van de eigenlijke werelderfgoedsite, of uit belangrijke zichten op de site en andere gebieden die van belang zijn voor de ondersteuning van de site en diens bescherming."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/23> a skos:Collection ;
+    dcterms:identifier "23" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/21> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/21> a skos:Concept ;
+    dcterms:identifier "21" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "gebied geen archeologie, gewestelijk"@nl ;
+    skos:scopeNote "Een gewestelijk gebied geen archeologie is een gebied geen archeologie dat vastgesteld is door de Vlaamse Regering."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/23> a skos:Collection ;
+    dcterms:identifier "23" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/22> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/22> a skos:Concept ;
+    dcterms:identifier "22" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:note "Tot nog toe bestaan er nog geen gemeentelijke gebieden geen archeologie."@nl-BE ;
+    skos:prefLabel "gebied geen archeologie, gemeentelijk"@nl ;
+    skos:scopeNote "Een gemeentelijk gebied geen archeologie is een gebied geen archeologie dat vastgesteld is door een erkende onroerenderfgoedgemeente."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/23> a skos:Collection ;
+    dcterms:identifier "23" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/21>,
+        <https://id.erfgoed.net/thesauri/aanduidingstypes/22> ;
+    skos:prefLabel "gebied geen archeologie"@nl ;
+    skos:scopeNote "Een gebied geen archeologie is een gebied waarvan op basis van waarnemingen en wetenschappelijke argumenten onderbouwd kan worden dat het met hoge waarschijnlijkheid geen archeologische waarde heeft. Het is vastgesteld overeenkomstig hoofdstuk 5, afdeling 4, van het onroerenderfgoedbesluit."@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/16> a skos:Collection ;
+    dcterms:identifier "16" ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:member <https://id.erfgoed.net/thesauri/aanduidingstypes/24> .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes/24> a skos:Concept ;
+    dcterms:identifier "24" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:inScheme <https://id.erfgoed.net/thesauri/aanduidingstypes> ;
+    skos:prefLabel "vastgesteld landschappelijk erfgoed"@nl-BE .
+
+<https://id.erfgoed.net/thesauri/aanduidingstypes> a skos:ConceptScheme ;
+    dcterms:identifier "AANDUIDINGSTYPES" ;
+    void:inDataset <https://id.erfgoed.net/datasets/thesauri/aanduidingstypes> ;
+    skos:altLabel "Erfgoedstatuten"@nl-BE ;
+    skos:prefLabel "Designation types"@en-GB,
+        "Aanduidingstypes"@nl-BE ;
+    skos:scopeNote "Designation types are types of legal protection provided to heritage assets such as Scheduled Monument, Listed Building or World Heritage Site."@en-GB,
+        "Aanduidingstypes zijn vormen van juridische verankering van onroerend erfgoed. Onder een aanduiding verstaan we een juridische verankering van een stuk van Vlaanderen. Dit kan onder de vorm van een bescherming of een vaststelling van een inventaris zijn. Het hoeft echter niet altijd te gaan om het verankeren van de aanwezigheid van erfgoed. Bij de gebieden geen archeologie, duiden we net aan dat er geen erfgoedwaarde meer verwacht wordt."@nl .
+
