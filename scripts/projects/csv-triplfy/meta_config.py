@@ -1,0 +1,8 @@
+schema_title = "ABB Linked Data"
+schema_description = "This graph is created to represent the data exported by the Erfgoed AP -  aanduidingsobjecten"
+author = "Nora Abdelmageed"
+orcid = "https://orcid.org/0000-0002-1405-6860"
+created_at = "2024-09-12"
+license_url = "http://creativecommons.org/licenses/by/4.0/"
+institute = "Hackathon @ABB"
+institute_url  = "https://abb-hackathon/team4"

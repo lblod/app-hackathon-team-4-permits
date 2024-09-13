@@ -1,0 +1,25 @@
+﻿en,nl,iri
+id,id,id
+type,type,type
+name,naam,naam
+location,locatie,locatie
+province,provincie,provincie
+municipality,gemeente,gemeente
+borough,deelgemeente,deelgemeente
+numbers,nummers,nummers
+style,stijl,stijl
+typology,typologie,typologie
+context,context,context
+material,materiaal,materiaal
+plant species,plantensoort,plantensoort
+dating,datering,datering
+gga_motivation,gga_motivatie,gga_motivatie
+person,personen,personen
+events,gebeurtenissen,gebeurtenissen
+themes,themas,themas
+valid from,geldig vanaf,geldig vanaf
+valid until,geldig tot,geldig tot
+validity remarks,geldigheid opmerkingen,geldigheid opmerkingen
+decisions,besluiten,besluiten
+data responsible,dataverantwoordelijke,dataverantwoordelijke
+acts requiring authorisation,toelatingsplichtige handelingen,toelatingsplichtige handelingen

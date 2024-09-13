@@ -1,0 +1,37 @@
+nl,en,mapping
+besluiten,decisions,http://vocab.getty.edu/aat/300054540
+bewaringstoestand,state of preservation,http://vocab.getty.edu/aat/300435450
+brontypes,source types,http://vocab.getty.edu/aat/300026947
+context,context,http://www.cidoc-crm.org/crm/E89
+dataverantwoordelijke,data controller,http://www.europeana.eu/schemas/edm/Agent
+datering,dating,http://vocab.getty.edu/aat/300404670
+deelgemeente,sub-municipality,http://vocab.getty.edu/tgn/85114463
+disciplines,disciplines,http://vocab.getty.edu/aat/300054194
+erfgoedwaarde,heritage value,http://vocab.getty.edu/aat/300435400
+gebeurtenissen,events,http://www.cidoc-crm.org/crm/E5
+gebeurtenistypes,event types,http://www.cidoc-crm.org/crm/E55
+geldig tot,valid until,http://www.w3.org/2006/time#validTime
+geldig vanaf,valid from,http://www.w3.org/2006/time#validTime
+geldigheid opmerkingen,validity remarks,http://www.europeana.eu/schemas/edm/Note
+gemeente,municipality,http://vocab.getty.edu/tgn/7007051
+gga_motivatie,heritage listing motivation,http://www.cidoc-crm.org/crm/E7
+id,identifier,http://www.europeana.eu/schemas/edm/identifier
+is_beschermd,is protected,http://vocab.getty.edu/aat/300133039
+is_vastgesteld,is established,http://www.cidoc-crm.org/crm/E7
+locatie,location,http://www.europeana.eu/schemas/edm/Place
+materiaal,material,http://vocab.getty.edu/aat/300010358
+naam,name,http://dublincore.org/documents/dcmi-terms/#elements-title
+nummers,numbers,http://dublincore.org/documents/dcmi-terms/#terms-identifier
+omvang,extent,http://vocab.getty.edu/aat/300056240
+personen,persons,https://schema.org/Agent
+plantensoort,plant species,http://vocab.getty.edu/aat/300132208
+provincie,province,http://vocab.getty.edu/tgn/7006932
+stamomtrek,trunk circumference,http://vocab.getty.edu/aat/300055647
+stijl,style,http://vocab.getty.edu/aat/300015565
+structuren,structures,http://vocab.getty.edu/aat/300006778
+themas,themes,http://vocab.getty.edu/aat/300055298
+toelatingsplichtige handelingen,admission-required actions,http://vocab.getty.edu/aat/300123859
+type,type,http://dublincore.org/documents/dcmi-terms/#terms-type
+typologie,typology,http://vocab.getty.edu/aat/300311219
+zichtbaarheid,visibility,http://vocab.getty.edu/aat/300055098
+instance,instance,http://www.w3.org/1999/02/22-rdf-syntax-ns#
